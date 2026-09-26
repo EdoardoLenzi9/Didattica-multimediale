@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------#
-#                             ALGORITMI RICERCA                           #
+#                ALGORITMI RICERCA - NON TRATTATO NEL LIBRO               #
 # ------------------------------------------------------------------------#
 
 def ricerca_indice(lista: list[int], chiave_di_ricerca: int) -> int:

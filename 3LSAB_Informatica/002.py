@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------#
-#                                 ARITMETICA BOOLEANA                     #
+#             ARITMETICA BOOLEANA - CAPITOLO 1 LIBRO (pag 2 - 19)         #
 # ------------------------------------------------------------------------#
 
 # dichiara una variabile "x" di tipo booleano ("bool") con valore True

@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------#
-#                             RICERCA BINARIA                             #
+#                RICERCA BINARIA - NON TRATTATO NEL LIBRO                 #
 # ------------------------------------------------------------------------#
 
 def binary_search(arr: list[int], target: int) -> int:

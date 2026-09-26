@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------#
-#                             ALGORITMI ORDINAMENTO                       #
+#              ALGORITMI ORDINAMENTO - NON TRATTATO NEL LIBRO             #
 # ------------------------------------------------------------------------#
 def indice_numero_minimo(input: list[int]) -> int:
     n: int = len(input)

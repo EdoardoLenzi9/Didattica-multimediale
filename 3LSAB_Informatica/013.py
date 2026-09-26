@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------#
-#                             SELECTION SORT                              #
+#                  SELECTION SORT - NON TRATTATO NEL LIBRO                #
 # ------------------------------------------------------------------------#
 
 def selection_sort(input: list[int]) -> list[int]:

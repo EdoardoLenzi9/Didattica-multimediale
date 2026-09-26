@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------#
-#                            FUNZIONI STRINGHE                            #
+#             FUNZIONI STRINGHE - CAPITOLO 2 LIBRO (pag 26 - 42)          #
 # ------------------------------------------------------------------------#
 
 # le stringhe sono un tipo di dato complesso che 

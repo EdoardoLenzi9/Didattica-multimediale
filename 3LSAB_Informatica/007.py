@@ -6,7 +6,7 @@
 # usando la funzione built-in "input" 
 
 # ------------------------------------------------------------------------#
-#                                     IF                                  #
+#                    IF - CAPITOLO 1 LIBRO (pag 2 - 19)                   #
 # ------------------------------------------------------------------------#
 
 # se la variabile x >= 18 stampa "sei maggiorenne"

@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------#
-#                                 ARITMETICA                              #
+#             ARITMETICA - CAPITOLO 1 LIBRO (pag 2 - 19)                  #
 # ------------------------------------------------------------------------#
 
 # dichiara una variabile "x" di tipo intero ("int") con valore 1

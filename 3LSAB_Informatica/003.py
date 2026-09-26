@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------#
-#                                 ARITMETICA STRINGHE                     #
+#             ARITMETICA STRINGHE - CAPITOLO 2 LIBRO (pag 26 - 42)        #
 # ------------------------------------------------------------------------#
 
 # dichiara una variabile "x" di tipo stringa ("str") con valore "Hello"
