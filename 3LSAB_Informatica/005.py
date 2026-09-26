@@ -24,11 +24,11 @@
 # ------------------------------------------------------------------------#
 
 print("inizio programma")
-
 x: int = 1
 y: int = 2
 
 def somma(x: int, y: int) -> int:
+    print("funzione somma in esecuzione...")
     w: int = x + y
     return w
 
