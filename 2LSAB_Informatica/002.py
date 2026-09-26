@@ -1,45 +1,75 @@
 # ------------------------------------------------------------------------#
-#                                 ARITMETICA BOOLEANA                     #
+#                VARIABILI - CAPITOLO 1 LIBRO (pag 2 - 19)                #
 # ------------------------------------------------------------------------#
 
-# dichiara una variabile "x" di tipo booleano ("bool") con valore True
+# dichiara una variabile "x" di tipo intero ("int") con valore 314
 
-# dichiara una variabile "y" di tipo booleano ("bool") con valore False
+# dichiara una variabile "y" di tipo numerico con virgola ("float") con valore 3.14
 
-# stampa il valore di "x" e "y"
+# dichiara una variabile "z" di tipo booleano ("bool") con valore True
+
+# dichiara una variabile "w" di tipo testo/stringa ("str") con valore "Hello World!"
+
+# stampa il valore di x, y, z e w
+
+# ------------------------------------------------------------------------#
+#                           RIASSEGNA UNA VARIABILE                       #
+# ------------------------------------------------------------------------#
+
+# dichiara una variabile "a" di tipo intero
+
+# assegna ad a il valore 1
+
+# stampa il valore di a
+
+# riassegna ad a il valore 2
+
+# stampa il valore di a
+
+# riassegna ad a il valore 3
+
+# stampa il valore di a
+
+# stampa il valore iniziale di a
+
+# ------------------------------------------------------------------------#
+#             ARITMETICA - CAPITOLO 1 LIBRO (pag 2 - 19)                  #
+# ------------------------------------------------------------------------#
+
+# dichiara una variabile "x" di tipo intero ("int") con valore 1
+
+# dichiara una variabile "y" di tipo intero ("int") con valore 2
+
+# dichiara una variabile "z" come somma di x e y
+
+# stampa il valore di "x", "y" e "z"
+
+# aggiorna il valore di "x" a 2
+
+# stampa il valore di "x", "y" e "z"
 
 # ------------------------------------------------------------------------#
 #                                 OPERAZIONI                              #
 # ------------------------------------------------------------------------#
 
-# dichiara una variable "z" di tipo booleano come x OR y e stampane il valore
+x: int = 1  +  1    # somma
+print(x)
 
-# assegna alla variable "z" il valore y OR x e stampane il valore
+x: int = 2  -  2    # sottrazione
+print(x)
 
-# assegna alla variable "z" il valore x AND y e stampane il valore
+x: int = 3  *  3    # moltiplicazione
+print(x)
 
-# assegna alla variable "z" il valore y AND x e stampane il valore
+x: int = 4  // 4    # divisione intera (arrotondamento)
+print(x)
 
-# assegna alla variable "z" il valore 1 > 2 e stampane il valore
+x: int = 5  %  4    # resto della divisione intera
+print(x)
 
-# assegna alla variable "z" il valore 2 > 1 e stampane il valore
+x: int = 3  **  3   # elevamento a potenza "3 alla terza"
+print(x)
 
-# assegna alla variable "z" il valore 1 <= 2 e stampane il valore
-
-# assegna alla variable "z" il valore 2 <= 1 e stampane il valore
-
-# assegna alla variable "z" il valore (2 <= 1) AND (x) OR (x AND y) e stampane il valore
-# True or True = True
-# True or False = True
-# False or True = True
-# False or False = False 
-
-# True and True = True
-# True and False = False
-# False and True = False
-# False and False = False 
-
-z: bool = True
-y: bool = False
-print(z and y)
-print("ciao" == "hello")
+# predici il valore di w
+w = (((2 + 1) // 3 + (2 - 2) * 1) ** 2) % 10
+print(w)

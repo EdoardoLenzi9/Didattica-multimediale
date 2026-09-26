@@ -1,39 +1,45 @@
 # ------------------------------------------------------------------------#
-#                                 ARITMETICA STRINGHE                     #
+#             ARITMETICA BOOLEANA - CAPITOLO 1 LIBRO (pag 2 - 19)         #
 # ------------------------------------------------------------------------#
 
-# dichiara una variabile "x" di tipo stringa ("str") con valore "Hello"
+# dichiara una variabile "x" di tipo booleano ("bool") con valore True
 
-# dichiara una variabile "y" di tipo stringa ("str") con valore "World!"
+# dichiara una variabile "y" di tipo booleano ("bool") con valore False
 
 # stampa il valore di "x" e "y"
 
-# dichiara due stringhe in-linea utilizzando le 2 dichiarazioni ammesse: "...", '...'
-
-# dichiara due stringhe multi-linea utilizzando le 2 dichiarazioni ammesse: """...""", '''...'''
-
 # ------------------------------------------------------------------------#
-#                                 SLICING e OPERAZIONI                    #
+#                                 OPERAZIONI                              #
 # ------------------------------------------------------------------------#
 
-# dichiara una variable "z" di tipo stringa come concatenazione di x e y (con uno spazio in mezzo) 
+# dichiara una variable "z" di tipo booleano come x OR y e stampane il valore
 
-# ridichiara "z" usando "string format" (f"") per concatenare x e y
+# assegna alla variable "z" il valore y OR x e stampane il valore
 
-# stampa il primo carattere di z
+# assegna alla variable "z" il valore x AND y e stampane il valore
 
-# stampa il secondo carattere di z
+# assegna alla variable "z" il valore y AND x e stampane il valore
 
-# stampa i primi due caratteri di z
+# assegna alla variable "z" il valore 1 > 2 e stampane il valore
 
-# stampa l'ultimo carattere di z
+# assegna alla variable "z" il valore 2 > 1 e stampane il valore
 
-# stampa gli ultimi tre caratteri di z
+# assegna alla variable "z" il valore 1 <= 2 e stampane il valore
 
-# concatena i primi tre caratteri di z agli ultmi due, salva il valore in w e stampa la variabile w
+# assegna alla variable "z" il valore 2 <= 1 e stampane il valore
 
-# dichiara una variabile booleana b come confronto fra w e "Held!"
+# assegna alla variable "z" il valore (2 <= 1) AND (x) OR (x AND y) e stampane il valore
+# True or True = True
+# True or False = True
+# False or True = True
+# False or False = False 
 
-# assegna alla variabile booleana b il confronto fra w e "He!"
+# True and True = True
+# True and False = False
+# False and True = False
+# False and False = False 
 
-# assegna alla variabile booleana b il confronto "w contiene la sottostringa "World" usando l'operatore in
+z: bool = True
+y: bool = False
+print(z and y)
+print("ciao" == "hello")

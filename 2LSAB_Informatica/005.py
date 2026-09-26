@@ -1,48 +1,21 @@
 # ------------------------------------------------------------------------#
-#                                 FUNCTIONs                               #
+#                        CAST - NON TRATTATO NEL LIBRO                    #
 # ------------------------------------------------------------------------#
 
-# dichiara una funzione somma 
-#   che prende in input due argomenti a e b di tipo int
-#   che restituisce in output un valore di tipo int
-
-# dichiara le funzioni: sottrai, dividi e moltiplica
-
-# dichiara una funzione "concatena" che date due stringhe in input
-# le concatena e ritorna in output il valore concatenato
-
-# dichiara una funzione "divisore" che dati in input due numeri interi x e y
-# controlla se x e' un divisore intero di y e ritorna il risultato 
-# come valore di tipo booleano
-
-# qual'e' la firma delle funzioni "concatena" e "divisore"?
-
-# cos'e' print? qual'e' la firma di print?
-
-# ------------------------------------------------------------------------#
-#                                 EXAMPLE                                 #
-# ------------------------------------------------------------------------#
-
-print("inizio programma")
-
+# dichiara una variabile "x" di tipo int valore 1
 x: int = 1
-y: int = 2
 
-def somma(x: int, y: int) -> int:
-    w: int = x + y
-    return w
+# usa il cast per trasformare il valore di x in float, bool e str
+f: float = float(x)
+b: bool = bool(x)
+s: str = str(x)
 
-z = somma(3, 4)
+# stampa il tipo di x, f, b, s usando la funzione type
+print(type(x))
+print(type(f))
+print(type(b))
+print(type(s))
 
-# cosa verra' stampato nelle prossime righe?
-print(x)
-print(y)
-print(z)
+# ri-converti f, b, s in int
 
-# ------------------------------------------------------------------------#
-#                                 IMPORT                                  #
-# ------------------------------------------------------------------------#
-
-# dal modulo sys importa la funzione getsizeof
-
-# stampa il risultato di getsizeof(1)
+# il cast e' sempre ammesso? posso convertire "abc" in int? 
